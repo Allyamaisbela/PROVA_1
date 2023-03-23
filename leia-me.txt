@@ -1,0 +1,3 @@
+Você conseguiu estruturar seu HTML/CSS e linkar corretamente o JavaScript além de colocar algumas funcionalidades.
+Seu adicionar na tabela não funcionou pois algumas variaveis estava incompativeis.
+Voce está no nivel - 03 e sua nota é 4,0.

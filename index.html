@@ -1,98 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROVA</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROVA</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 </head>
+
 <body>
 
-    <header>
-        <div class="container">
-            <h2 class="titulo">Just Friends IT</h2>
-        </div>
-        <table class="table">
-            <thead>
-              <tr class="registro">
-                <th scope="col">Nome da Tarefa</th>
-                <th scope="col">Descrição</th>
-                <th scope="col">Prioridade</th>
-                <th scope="col">Status Atual</th>
-              </tr>
-            </thead>
-            <tbody id="tabela-registro">
-              <tr class="registro">
-                <td class="info-nomedatarefa">Git Hub - Como inserir um arquivo</th>
-                <td class="info-descricao">Realizar um cadastro no Git hub e logo em seguida inserir um arquivo</td>
-                <td class="info-prioridade">Inserir um arquivo</td>
-                <td class="info-statusatual">Concluído</td>
-              </tr>
-              <tr class="registro">
-                <td class="info-nomedatarefa"> Teste Crud (PHP)</th>
-                <td class="info-descricao">Inserir php no site realizado</td>
-                <td class="info-prioridade">Inserir e funcionar o php</td>
-                <td class="info-statusatual">Em andamento</td>
-              </tr>
-              <tr class="registro">
-                <td class="info-nomedatarefa">Realizar um site com Java</th>
-                <td class="info-descricao">Realizar um site no visual Code e fazer com que o javascript tenha funcionalidade</th>
-                <td class="info-prioridade">javascript tem que ter funcionalidade</td>
-                <td class="info-statusatual">Em andamento</td>
-              </tr>
-            </tbody>
-          </table>
+  <header>
+    <div class="container">
+      <h2 class="titulo">Just Friends IT</h2>
+    </div>
+    <table class="table">
+      <thead>
+        <tr class="registro">
+          <th scope="col">Nome da Tarefa</th>
+          <th scope="col">Descrição</th>
+          <th scope="col">Prioridade</th>
+          <th scope="col">Status Atual</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-registro">
+        <tr class="registro">
+          <td class="info-nomedatarefa">Git Hub - Como inserir um arquivo</th>
+          <td class="info-descricao">Realizar um cadastro no Git hub e logo em seguida inserir um arquivo</td>
+          <td class="info-prioridade">Inserir um arquivo</td>
+          <td class="info-statusatual">Concluído</td>
+        </tr>
+        <tr class="registro">
+          <td class="info-nomedatarefa"> Teste Crud (PHP)</th>
+          <td class="info-descricao">Inserir php no site realizado</td>
+          <td class="info-prioridade">Inserir e funcionar o php</td>
+          <td class="info-statusatual">Em andamento</td>
+        </tr>
+        <tr class="registro">
+          <td class="info-nomedatarefa">Realizar um site com Java</th>
+          <td class="info-descricao">Realizar um site no visual Code e fazer com que o javascript tenha funcionalidade
+            </th>
+          <td class="info-prioridade">javascript tem que ter funcionalidade</td>
+          <td class="info-statusatual">Em andamento</td>
+        </tr>
+      </tbody>
+    </table>
 
-          <div class="box">
-            <form action="">
-                
-                <section class="container">
-                    <h2 id="titulo-form">Adicionar Registro !</h2>
-                    <form id="form-adiciona">
-                    <br>
-                    <table>
-                    <div class="inputBox">
-                        <label for="nome" class="labelInput">Nome da Tarefa:</label>
-                        <input type="text" name="nome" id="nome" minlength="15" class="inputUser" required>
-                        </div>
-                        <br><br>
-    
-                    <div class="inputBox">
-                        <label for="name" class="labelInput">Descrição</label>
-                        <input type="name" name="name" id="name" minlength="15" class="inputUser" required>
-                        </div>
-                        <br><br>
-    
-                    <div class="inputBox">
-                        <label for="name" class="labelInput">Prioridade:</label>
-                        <input type="name" name="name" id="name" minlength="15" class="inputUser" required>
-                        </div>
-                        <br><br>
-    
-                    <div class="inputBox">
-                        <label for="name" class="labelInput">Status</label>
-                        <input type="name" name="name" id="name" minlength="15" class="inputUser" required>
-                        </div>
-                        <br><br>
-            
-                    </table>
+    <div class="box">
+      <form action="">
 
-                    
-                    <button id="adicionar-" class="botao bto-principal">Adicionar</button>
+        <section class="container">
+          <h2 id="titulo-form">Adicionar Registro !</h2>
+          <form id="form-adiciona">
+            <br>
+            <table>
+              <div class="inputBox">
+                <label for="nome" class="labelInput">Nome da Tarefa:</label>
+                <input type="text" name="nome" id="nome" minlength="15" class="inputUser" required>
+              </div>
+              <br><br>
 
-                </section>
-        
-            </form>
-        </div>
-        
-    </header>
-    
-    <script src="js/form.js"></script>
-    <script src="js/removerRegistro.js"></script>
+              <div class="inputBox">
+                <label for="name" class="labelInput">Descrição</label>
+                <input type="name" name="name" id="name" minlength="15" class="inputUser" required>
+              </div>
+              <br><br>
+
+              <div class="inputBox">
+                <label for="name" class="labelInput">Prioridade:</label>
+                <input type="name" name="name" id="name" minlength="15" class="inputUser" required>
+              </div>
+              <br><br>
+
+              <div class="inputBox">
+                <label for="name" class="labelInput">Status</label>
+                <input type="name" name="name" id="name" minlength="15" class="inputUser" required>
+              </div>
+              <br><br>
+
+            </table>
+
+
+            <button id="adicionar-registro" class="botao bto-principal">Adicionar</button>
+
+        </section>
+
+      </form>
+    </div>
+
+  </header>
+
+  <script src="js/form.js"></script>
+  <script src="js/removerRegistro.js"></script>
 
 
 </body>
+
 </html>
